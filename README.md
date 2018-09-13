@@ -1,17 +1,11 @@
-Npm JQuery Demo
-===============
+JavaScript JQuery Ajax with "async/await" Demo
+==============================================
 
-Use the `jquery.js` from npm jquery module on the html page.
+在jquery的ajax相关的api中使用`async/await`:
 
 ```
-npm install -g http-server
 npm install
+npm run demo
 ```
 
-Start:
-
-```
-http-server
-```
-
-Visit <http://localhost:8080/index.html>, you will see some data on the page, which is loaded by JQuery's ajax api.
+It will open <http://localhost:8080> automatically, you will see some data on the page, which is loaded by JQuery's ajax api.
